@@ -1,4 +1,3 @@
-
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
@@ -10,17 +9,11 @@ import{getFirestore,setDoc, doc } from "https://www.gstatic.com/firebasejs/11.0.
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyCWX762pyq64INPJ5PPSCwSEMmIlLFmHe0",
-    authDomain: "login-form-9e1c5.firebaseapp.com",
-    projectId: "login-form-9e1c5",
-    storageBucket: "login-form-9e1c5.appspot.com",
-    messagingSenderId: "882627994953",
-    appId: "1:882627994953:web:c08673f81951d0721aa698",
-    measurementId: "G-7HDZHZT614"
+    // Your Copied Firebase Part should be added
   };
   // Initialize Firebase
 const app = initializeApp (firebaseConfig);
-
+ 
  function showMessage(message, divId){
     var messageDiv=document.getElementById(divId);
     messageDiv.style.display="block";
